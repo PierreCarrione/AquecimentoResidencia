@@ -8,9 +8,9 @@ public class NotTriangle : Exception
 public enum type { EQUILÁTERO, ISÓSCELES, ESCALENO}
 public class Triangulo
 {
-    Vertice v1;
-    Vertice v2;
-    Vertice v3; 
+    private Vertice v1;
+    private Vertice v2;
+    private Vertice v3; 
 
     public void setV1(Vertice v)
     {
